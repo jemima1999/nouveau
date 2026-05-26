@@ -13,8 +13,8 @@ export default function Navbar() {
         <div className="flex gap-6">
           <a href="#" className="hover:text-gray-800">FAQ</a>
           <a href="#" className="hover:text-gray-800">À propos de nous</a>
-          <a href="#" className="hover:text-gray-800 font-medium">Connexion</a>
-          <a href="#" className="hover:text-gray-800">S'inscrire</a>
+          <a href="/login" className="hover:text-gray-800 font-medium">Connexion</a>
+          <a href="/register" className="hover:text-gray-800">S'inscrire</a>
         </div>
       </div>
 
